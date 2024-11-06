@@ -13,11 +13,6 @@ setlocal enabledelayedexpansion
 REM --- Prompt the user to enter a month number ---
 :EnterMonth
 REM echo Please enter the month number (MM format):
-set /p Month=Type Month in MM format: 
-
-REM --- Prompt the user to enter a month number ---
-:EnterMonth
-REM echo Please enter the month number (MM format):
 set /p Month=Type Month in MM format:
 
 REM --- Validate month input ---
